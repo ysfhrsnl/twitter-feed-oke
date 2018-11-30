@@ -10,7 +10,7 @@ build:
     - install-packages:
         packages: maven
     - script:
-        name: maven build
+        name: maven build 
         code: |
           export M2_HOME=/usr/share/maven
           mvn -X clean assembly:assembly
